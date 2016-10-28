@@ -104,6 +104,9 @@ export default withApollo(compose(
   graphql(AMOUNT_QUERY, {
     props({data: {loading, count, updateQuery}}) {
       return {loading, count, updateCountQuery: updateQuery};
+    },
+    options: {
+      forceFetch: true
     }
   }),
   graphql(ADD_COUNT_MUTATION, {

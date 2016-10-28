@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 import { render } from 'react-dom'
 import Main from './main';
 import router from '../routes'
@@ -36,4 +36,4 @@ if (__DEV__) {
   render((
     <Main/>
   ), root);
-}
+} */
